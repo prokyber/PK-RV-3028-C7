@@ -21,7 +21,7 @@ it's ultra precise real time clock with extremly low power demand RTC module
 ## 4. TECHNICAL SPECIFICATIONS
 | **Tech. Specification** | **Explanatory notes** |
 |-------------------------|-----------------------|
-| `Ultra-Low Power Consumption` |Typically operates at `45 uA` at `3 V`, which is excellent for battery-operated and energy-sensitive applications|
+| `Ultra-Low Power Consumption` | +Typically operates at `45 uA` at `3 V`, which is excellent for battery-operated and energy-sensitive applications|
 | `Power Supply Range` |Operates between `1.2 V` and `5.5 V`, making it compatible with a wide range of systems|
 | `Clock Accuracy` |Highly accurate, with a typical drift of `±1` ppm from `-40°C` to `+85°C` <br> Equivalent to about `±2.6` seconds per month without any calibration, making it one of the most precise RTCs available|
 | `Temperature Compensation` |Integrated temperature compensation provides stability across a wide temperature range|
