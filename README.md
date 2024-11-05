@@ -6,7 +6,7 @@ Template for product development. Product description. You will make many photos
 
 ## 1. WHAT IS IT
 
-**PK-RV-3028-C7** is a precize clock made from micro crystal switzerland extreme low power demand RTC module RV-3028-C7, has 2 Stema QT connectors and a big battery with programmable event button
+The **PK-RV-3028-C7** is a precision clock built with the ultra-low-power RV-3028-C7 RTC module from Micro Crystal Switzerland. It features two Stemma QT connectors, a large battery, and a programmable event button.
 
 ## 2. WHY DID WE MAKE IT
 
@@ -21,14 +21,14 @@ it's ultra precise real time clock with extremly low power demand RTC module
 ## 4. TECHNICAL SPECIFICATIONS
 | **Tech. Specification** | **Explanatory notes** |
 |-------------------------|-----------------------|
-| Ultra-Low Power Consumption |Typically operates at 45 nA at 3 V, which is excellent for battery-operated and energy-sensitive applications|
-| Power Supply Range |Operates between 1.2 V and 5.5 V, making it compatible with a wide range of systems|
-| Clock Accuracy |Highly accurate, with a typical drift of ±1 ppm from -40°C to +85°C <br> Equivalent to about ±2.6 seconds per month without any calibration, making it one of the most precise RTCs available|
-| Temperature Compensation |Integrated temperature compensation provides stability across a wide temperature range|
-| Backup Battery Support |Has a backup battery input (V_BAT), allowing it to keep time even if the main power is disconnected|
-| Timestamp Function |Has a feature that can capture timestamps of key events, like button presses or power interruptions, which is useful in event tracking applications|
-| I²C Interface | Communicates through an I²C interface, making it easy to integrate with microcontrollers and other digital systems|
-| Alarm and Timer Functions |Features configurable alarms and countdown timers, useful for scheduling events or triggering actions|
+| `Ultra-Low Power Consumption` |Typically operates at `45 uA` at `3 V`, which is excellent for battery-operated and energy-sensitive applications|
+| `Power Supply Range` |Operates between `1.2 V` and `5.5 V`, making it compatible with a wide range of systems|
+| `Clock Accuracy` |Highly accurate, with a typical drift of `±1` ppm from `-40°C` to `+85°C` <br> Equivalent to about `±2.6` seconds per month without any calibration, making it one of the most precise RTCs available|
+| `Temperature Compensation` |Integrated temperature compensation provides stability across a wide temperature range|
+| `Backup Battery Support` |Has a backup battery input (`V_BAT`), allowing it to keep time even if the main power is disconnected|
+| `Timestamp Function` |Has a feature that can capture timestamps of key events, like button presses or power interruptions, which is useful in event tracking applications|
+| `I²C Interface` | Communicates through an `I²C` interface, making it easy to integrate with microcontrollers and other digital systems|
+| `Alarm and Timer Functions` |Features configurable alarms and countdown timers, useful for scheduling events or triggering actions|
 
 
 ## 5. Source Code / EXAMPLES
