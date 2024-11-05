@@ -1,4 +1,4 @@
-# PRODUCT NAME
+# PK-RV-3028-C7
 
 Template for product development. Product description. You will make many photos (from 3 axes).
 
@@ -6,19 +6,30 @@ Template for product development. Product description. You will make many photos
 
 ## 1. WHAT IS IT
 
-xxx is an XXX for xxx devboard. The XXX utilizes AA and AA.
+**PK-RV-3028-C7** is a precize clock made from micro crystal switzerland extreme low power demand RTC module RV-3028-C7, has 2 Stema QT connectors and a big battery with programmable event button
 
 ## 2. WHY DID WE MAKE IT
 
-...
+it's ultra precise real time clock with extremly low power demand RTC module
 
 ## 3. WHAT MAKE IT SPECIAL
 
-1. **SOMETHIG**: ...
-2. **SOMETHIG**: ...
-3. **SOMETHIG**: ... 
+1. **Stema QT connectors** : The clock's PCB includes **Stemma QT** connectors, allowing it to be easily **linked in series** with other compatible boards or shields.
+2. **Big Battery** : The PCB is equipped with a large battery for extended usage, and when paired with the ultra-low power consumption of the RTC module, it can last a significantly long time.
+3. **Event Button** : The PCB includes a programmable **event button**, allowing you to **customize its actions** when pressed.
 
-## 4. TECHNICAL SPECIFICATION
+## 4. TECHNICAL SPECIFICATIONS
+| **Tech. Specification** | **Explanatory notes** |
+|-------------------------|-----------------------|
+| Ultra-Low Power Consumption |Typically operates at 45 nA at 3 V, which is excellent for battery-operated and energy-sensitive applications|
+| Power Supply Range |Operates between 1.2 V and 5.5 V, making it compatible with a wide range of systems|
+| Clock Accuracy |Highly accurate, with a typical drift of ±1 ppm from -40°C to +85°C <br> Equivalent to about ±2.6 seconds per month without any calibration, making it one of the most precise RTCs available|
+| Temperature Compensation |Integrated temperature compensation provides stability across a wide temperature range|
+| Backup Battery Support |Has a backup battery input (V_BAT), allowing it to keep time even if the main power is disconnected|
+| Timestamp Function |Has a feature that can capture timestamps of key events, like button presses or power interruptions, which is useful in event tracking applications|
+| I²C Interface | Communicates through an I²C interface, making it easy to integrate with microcontrollers and other digital systems|
+| Alarm and Timer Functions |Features configurable alarms and countdown timers, useful for scheduling events or triggering actions|
+
 
 ## 5. Source Code / EXAMPLES
 
