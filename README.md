@@ -43,7 +43,7 @@ PINOUT is most important.
 
 Every image is in specific folder.
 
-![Schematic_2024-11-05-1](.hardware/schema/)
+![Schema](./hardware/schema/Screenshot_2024-11-05_180052.png)
 
 ### 6.2 PCB
 
