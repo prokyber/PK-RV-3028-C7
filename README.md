@@ -107,7 +107,7 @@ void loop() {
 ### 6.2 PCB
 
 ![IMAGE PCB TOP](.hardware\pcb\pcbTop.png)
-![IMAGE PCB BOTTOM](.hardware\pcb\pcbBottom.png)
+![IMAGE PCB BOTTOM](./hardware/pcb/PCB_Back_side.png)
 ![IMAGE DIMENSIONS](.hardware\pcb\pcbDim.png)
 
 ### 6.2 3D MODEL
