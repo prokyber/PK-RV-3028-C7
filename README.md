@@ -53,7 +53,8 @@ Every image is in specific folder.
 
 ### 6.2 3D MODEL
 
-![PCB 3D MODEL](.hardware\3d\product.png)
+![PCB 3D MODEL](./photos/PCB_3D_Top.png)
+![PCB 3D MODEL Bottom](./photos/PCB_3D_bottom.png)
 
 Enclosures:
 
