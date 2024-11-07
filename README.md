@@ -8,7 +8,7 @@ The **PK-RV-3028-C7** is a precision clock built with the ultra-low-power RV-302
 
 ## 2. WHY DID WE MAKE IT
 
-This board has been forged to provide ultra precise real time clock while consuming minimal power. It's RV-3028-C7 RTC module, recognized for its low energy consumption, created with Stemma QT connectors for serial integration, a big battery for longer use, and a programmable event button for custom functions.
+This board has been forged to provide ultra precise real time clock while consuming minimal power. It's based around RV-3028-C7 RTC chip, recognized for its low energy consumption, created with Stemma QT connectors for daisy-chaining, a big battery for longer use, and a programmable event button for custom functions.
 
 ## 3. WHAT MAKE IT SPECIAL
 
@@ -23,7 +23,6 @@ This board has been forged to provide ultra precise real time clock while consum
 | `Power Supply Range` |Operates between `1.2 V` and `5.5 V`, making it compatible with a wide range of systems|
 | `Clock Accuracy` |Highly accurate, with a typical drift of `±1` ppm from `-40°C` to `+85°C` <br> Equivalent to about `±2.6` seconds per month without any calibration, making it one of the most precise RTCs available|
 | `Temperature Compensation` |Integrated temperature compensation provides stability across a wide temperature range|
-| `Backup Battery Support` |Has a backup battery input (`V_BAT`), allowing it to keep time even if the main power is disconnected|
 | `Timestamp Function` |Has a feature that can capture timestamps of key events, like button presses or power interruptions, which is useful in event tracking applications|
 | `I²C Interface` | Communicates through an `I²C` interface, making it easy to integrate with microcontrollers and other digital systems|
 | `Alarm and Timer Functions` |Features configurable alarms and countdown timers, useful for scheduling events or triggering actions|
@@ -35,7 +34,7 @@ This board has been forged to provide ultra precise real time clock while consum
 ```c++
 /*
  this code was made by: Constantin Koch
-if you like this library and his work, you can go support him throuth out the link on top 
+if you like this library and his work, you can go support him through out the link on top 
 */
 
 #include <RV-3028-C7.h>
