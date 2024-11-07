@@ -1,8 +1,6 @@
 # PK-RV-3028-C7
 
-Template for product development. Product description. You will make many photos (from 3 axes).
-
-![MAIN PRODUCT PHOTO](.hardware\sch\Schematic.png)
+![MAIN PRODUCT PHOTO](./hardware/pcb/PCB_front_side.png)
 
 ## 1. WHAT IS IT
 
