@@ -33,7 +33,80 @@ This PBC has been forged to provide ultra precise real time clock while consumin
 
 ## 5. Source Code / EXAMPLES
 
-...
+[Code_Library](https://github.com/constiko/RV-3028_C7-Arduino_Library)
+```c++
+/*
+  Setting and reading time from RV-3028-C7 Real Time Clock
+  By: Constantin Koch
+  Date: 7/31/2019
+  License: This code is public domain but you buy me a beer if you use this and we meet someday (Beerware license).
+
+  Feel like supporting my work? Give me a star!
+  https://github.com/constiko/RV-3028_C7-Arduino_Library
+
+  This example shows how to set the time on the RTC to the compiler time or a custom time, and how to read the time.
+  Open the serial monitor at 115200 baud.
+*/
+
+#include <RV-3028-C7.h>
+
+RV3028 rtc;
+
+//The below variables control what the date will be set to
+int sec = 0;       // Sekundy (0-59)
+int minute = 0;    // Minuty (0-59)
+int hour = 0;      // Hodiny (0-23)
+int day = 3;       // Den v týdnu (1 = Pondělí, 7 = Neděle)
+int date = 5;      // Den v měsíci (1-31)
+int month = 11;    // Měsíc (1-12)
+int year = 2024;   // Rok (čtyřciferný formát)
+
+// ...
+
+void setup() {
+  Serial.begin(115200);
+  while (!Serial);
+  Serial.println("Read/Write Time - RTC Example");
+
+  Wire.begin(6,7);
+  if (rtc.begin() == false) {
+    Serial.println("Something went wrong, check wiring");
+    while (1);
+  }
+  else
+    Serial.println("RTC online!");
+  delay(1000);
+}
+
+void loop() {
+  //PRINT TIME
+  if (rtc.updateTime() == false) {
+    Serial.print("RTC failed to update");
+  } else {
+    String currentTime = rtc.stringTimeStamp();
+    Serial.println(currentTime + "     's' = set time     '1' = 12 hours format     '2' = 24 hours format");
+  }
+
+  //SET TIME?
+  if (Serial.available()) {
+    switch (Serial.read()) {
+      case 's':
+        // Uncomment the below code to set the RTC to your own time
+        if (rtc.setTime(sec, minute, hour, day, date, month, year) == false) {
+          Serial.println("Something went wrong setting the time");
+        }
+        break;
+      case '1':
+        rtc.set12Hour();
+        break;
+
+      case '2':
+        rtc.set24Hour();
+        break;
+    }
+  }
+}
+```
 
 ## 6. Documentation
 
