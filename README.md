@@ -10,7 +10,7 @@ The **PK-RV-3028-C7** is a precision clock built with the ultra-low-power RV-302
 
 ## 2. WHY DID WE MAKE IT
 
-it's ultra precise real time clock with extremly low power demand RTC module
+This PBC has been forged to provide ultra precise real time clock while consuming minimal power. It's RV-3028-C7 RTC module, recognized for its low energy consumption, created with Stemma QT connectors for serial integration, a big battery for longer use, and a programmable event button for custom functions.
 
 ## 3. WHAT MAKE IT SPECIAL
 
