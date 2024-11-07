@@ -8,13 +8,13 @@ The **PK-RV-3028-C7** is a precision clock built with the ultra-low-power RV-302
 
 ## 2. WHY DID WE MAKE IT
 
-This PBC has been forged to provide ultra precise real time clock while consuming minimal power. It's RV-3028-C7 RTC module, recognized for its low energy consumption, created with Stemma QT connectors for serial integration, a big battery for longer use, and a programmable event button for custom functions.
+This board has been forged to provide ultra precise real time clock while consuming minimal power. It's RV-3028-C7 RTC module, recognized for its low energy consumption, created with Stemma QT connectors for serial integration, a big battery for longer use, and a programmable event button for custom functions.
 
 ## 3. WHAT MAKE IT SPECIAL
 
 1. **Stema QT connectors** : The clock's PCB includes **Stemma QT** connectors, allowing it to be easily **linked in series** with other compatible boards or shields.
-2. **Big Battery** : The PCB is equipped with a large battery for extended usage, and when paired with the ultra-low power consumption of the RTC module, it can last a significantly long time.
-3. **Event Button** : The PCB includes a programmable **event button**, allowing you to **customize its actions** when pressed.
+2. **CR2032 Big Battery** : The board is equipped with a large battery for extended usage, and when paired with the ultra-low power consumption of the RTC module, it can last a significantly long time.
+3. **Event Button** : The PCB includes a programmable **event button**, allowing it perform different **actions** when pressed.
 
 ## 4. TECHNICAL SPECIFICATIONS
 | **Tech. Specification** | **Explanatory notes** |
