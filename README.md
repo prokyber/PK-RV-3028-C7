@@ -33,19 +33,11 @@ This PBC has been forged to provide ultra precise real time clock while consumin
 
 ## 5. Source Code / EXAMPLES
 
-[Code_Library](https://github.com/constiko/RV-3028_C7-Arduino_Library)
+[RV-3028_C7-Arduino_Library](https://github.com/constiko/RV-3028_C7-Arduino_Library)
 ```c++
 /*
-  Setting and reading time from RV-3028-C7 Real Time Clock
-  By: Constantin Koch
-  Date: 7/31/2019
-  License: This code is public domain but you buy me a beer if you use this and we meet someday (Beerware license).
-
-  Feel like supporting my work? Give me a star!
-  https://github.com/constiko/RV-3028_C7-Arduino_Library
-
-  This example shows how to set the time on the RTC to the compiler time or a custom time, and how to read the time.
-  Open the serial monitor at 115200 baud.
+ this code was made by: Constantin Koch
+if you like this library and his work, you can go support him throuth out the link on top 
 */
 
 #include <RV-3028-C7.h>
@@ -108,13 +100,7 @@ void loop() {
 }
 ```
 
-## 6. Documentation
-
-PINOUT is most important.
-
 ### 6.1 SCHEMA
-
-Every image is in specific folder.
 
 ![Schema](./hardware/schema/schema.png)
 
@@ -128,11 +114,6 @@ Every image is in specific folder.
 
 ![PCB 3D MODEL](./photos/PCB_3D_Top.png)
 ![PCB 3D MODEL Bottom](./photos/PCB_3D_bottom.png)
-
-Enclosures:
-
-1. [Link on thingiverse](https://www.thingiverse.com/)
-1. [Link on thingiverse](https://www.thingiverse.com/)
 
 ## 7. WHERE TO BUY
 
