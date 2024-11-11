@@ -12,7 +12,7 @@ This board has been forged to provide ultra precise real time clock while consum
 
 ## 3. WHAT MAKE IT SPECIAL
 
-1. **Stema QT connectors** : The clock's PCB includes **Stemma QT** connectors, allowing it to be easily **linked in series** with other compatible boards or shields.
+1. **Stema QT connectors** : The module has two **Stemma QT** connectors, allowing it to be easily **linked in series** with other compatible boards or shields.
 2. **CR2032 Big Battery** : The board is equipped with a large battery for extended usage, and when paired with the ultra-low power consumption of the RTC module, it can last a significantly long time.
 3. **Event Button** : The PCB includes a programmable **event button**, allowing it perform different **actions** when pressed.
 
