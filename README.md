@@ -114,9 +114,4 @@ void loop() {
 
 ## 7. WHERE TO BUY
 
-1. [Link text Here](https://prokyber.cz)
-2. [Link text Here](https://prokyber.cz)
-3. [Link text Here](https://prokyber.cz)
-
-Podpora produktu
-certifikace produktu
+1. [Tindie](https://www.tindie.com/products/allexok/pk-rv-3028-c7-1-ppm-rtc-with-dual-stemma-qt/)
